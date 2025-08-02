@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mobilescape.github.io/mobilescape//sitemap.xml
