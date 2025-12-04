@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Mobilescape Laboratory # the website title (if blank, full name will be used instead)
 first_name: Mobilescape Laboratory
 middle_name: 
 last_name: 
@@ -187,6 +187,10 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/cv.md
+  - _pages/books.md
   - purgecss.config.js
   - README.md
   - readme_preview/
