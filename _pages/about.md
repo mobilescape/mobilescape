@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Mobilescape
 permalink: /
 subtitle: Dankook University
 
