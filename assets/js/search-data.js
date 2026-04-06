@@ -406,7 +406,12 @@ ninja.data = [{
           section: "News",},{id: "news-jung-yubin-becomes-the-first-masters-student-in-the-lab-welcome-aboard",
           title: 'JUNG Yubin becomes the first masters’ student in the Lab. Welcome aboard.',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-yubin-geunson-and-rangkeun-presented-at-the-korea-planning-association",
+          title: 'Yubin, Geunson and Rangkeun presented at the Korea Planning Association',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/announcement_4/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
