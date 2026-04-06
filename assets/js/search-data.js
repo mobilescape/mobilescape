@@ -422,6 +422,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/announcement_7/";
+            },},{id: "news-new-mobilescape-publication-network-motif-and-public-bike",
+          title: 'New Mobilescape publication: Network motif and public bike',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/2025-12-31_new_paper/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
