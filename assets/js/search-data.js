@@ -415,7 +415,7 @@ ninja.data = [{
           title: 'SONG Jinseo has joined Mobilescape as an undergraduate researcher.',
           description: "",
           section: "News",},{id: "news-an-jungwoo-has-joined-mobilescape-as-an-undergraduate-researcher",
-          title: 'An Jungwoo has joined Mobilescape as an undergraduate researcher.',
+          title: 'AN Jungwoo has joined Mobilescape as an undergraduate researcher.',
           description: "",
           section: "News",},{id: "news-yubin-presented-at-the-korea-planning-association",
           title: 'Yubin presented at the Korea Planning Association',
