@@ -411,7 +411,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/announcement_4/";
-            },},{id: "projects-project-1",
+            },},{id: "news-song-jinseo-has-joined-mobilescape-as-an-undergraduate-researcher",
+          title: 'SONG Jinseo has joined Mobilescape as an undergraduate researcher.',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
