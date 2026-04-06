@@ -417,7 +417,12 @@ ninja.data = [{
           section: "News",},{id: "news-an-jungwoo-has-joined-mobilescape-as-an-undergraduate-researcher",
           title: 'An Jungwoo has joined Mobilescape as an undergraduate researcher.',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-yubin-presented-at-the-korea-planning-association",
+          title: 'Yubin presented at the Korea Planning Association',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/announcement_7/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
