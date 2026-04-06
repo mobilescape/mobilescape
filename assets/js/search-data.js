@@ -397,14 +397,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/mobilescape/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-kim-geunseon-and-jung-yubin-have-joined-mobilescape-as-undergraduate-researchers",
+            },},{id: "news-kim-geunseon-and-jung-yubin-have-joined-mobilescape-as-undergraduate-researchers",
           title: 'KIM Geunseon and JUNG Yubin have joined Mobilescape as undergraduate researchers.',
           description: "",
           section: "News",},{id: "news-youn-rangkeun-has-joined-mobilescape-as-an-undergraduate-researcher",
           title: 'YOUN Rangkeun has joined Mobilescape as an undergraduate researcher.',
+          description: "",
+          section: "News",},{id: "news-jung-yubin-becomes-the-first-masters-student-in-the-lab-welcome-aboard",
+          title: 'JUNG Yubin becomes the first masters’ student in the Lab. Welcome aboard.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
