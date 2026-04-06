@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-An Jungwoo has joined Mobilescape as an undergraduate researcher.
+AN Jungwoo has joined Mobilescape as an undergraduate researcher.
