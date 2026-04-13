@@ -2,8 +2,11 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% assign current_lang = page.lang | default: 'en' %}
+      {% assign is_home = false %}
+      {% if page.url == '/' or page.url == '/ko/' %} {% assign is_home = true %} {% endif %}
+      {% if is_home == false %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{% if current_lang == 'ko' %}ko/{% endif %}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -42,15 +45,29 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          {% assign about_title = '' %}
+          {% assign ko_about_title = '' %}
+          {% for p in site.pages %}
+            {% if p.permalink == '/' %} {% assign about_title = p.title %} {% endif %}
+            {% if p.permalink == '/ko/' %} {% assign ko_about_title = p.title %} {% endif %}
           {% endfor %}
+          {% if current_lang == 'ko' %}
+            {% assign home_title = ko_about_title %}
+            {% assign home_url = '/ko/' %}
+            {% assign home_active = false %}
+            {% if page.url == '/ko/' %} {% assign home_active = true %} {% endif %}
+          {% else %}
+            {% assign home_title = about_title %}
+            {% assign home_url = '/' %}
+            {% assign home_active = false %}
+            {% if page.url == '/' %} {% assign home_active = true %} {% endif %}
+          {% endif %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
+          <li class="nav-item {% if home_active %}active{% endif %}">
+            <a class="nav-link" href="{{ home_url | relative_url }}">
+              {{- home_title }}
+              {% if home_active %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -59,7 +76,8 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% assign p_lang = p.lang | default: 'en' %}
+            {% if p.nav and p.autogen == null and p_lang == current_lang %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -125,6 +143,17 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language toggle -->
+          <li class="nav-item">
+            {% if current_lang == 'ko' %}
+              {% assign switch_url = page.url | remove_first: '/ko' %}
+              {% if switch_url == '' %}{% assign switch_url = '/' %}{% endif %}
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="Switch to English">EN</a>
+            {% else %}
+              {% assign switch_url = '/ko' | append: page.url %}
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="한국어로 보기">KO</a>
+            {% endif %}
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
