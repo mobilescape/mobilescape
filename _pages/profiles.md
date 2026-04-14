@@ -1,11 +1,10 @@
 ---
 layout: profiles
 permalink: /people/
-title: 구성원
-description: 연구실 구성원
+title: people
+description: members of the lab or group
 nav: true
 nav_order: 5
-lang: ko
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

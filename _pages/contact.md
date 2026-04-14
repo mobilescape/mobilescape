@@ -1,8 +1,7 @@
 ---
 layout: page
-title: 연락처
+title: contact
 permalink: /contact/
 nav: true
 nav_order: 7
-lang: ko
 ---
