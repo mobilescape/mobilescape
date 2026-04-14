@@ -132,6 +132,14 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          {% endif %}
           <!-- Language toggle -->
           <li class="nav-item">
             {% if current_lang == 'en' %}
@@ -142,7 +150,7 @@
                 {% if p.url == switch_url %}{% assign target_exists = true %}{% endif %}
               {% endfor %}
               {% unless target_exists %}{% assign switch_url = '/' %}{% endunless %}
-              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="한국어로 보기">🇰🇷</a>
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="한국어로 보기">KO</a>
             {% else %}
               {% assign switch_url = '/en' | append: page.url %}
               {% assign target_exists = false %}
@@ -150,7 +158,7 @@
                 {% if p.url == switch_url %}{% assign target_exists = true %}{% endif %}
               {% endfor %}
               {% unless target_exists %}{% assign switch_url = '/en/' %}{% endunless %}
-              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="Switch to English">🇺🇸</a>
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="Switch to English">EN</a>
             {% endif %}
           </li>
           {% if site.enable_darkmode %}
