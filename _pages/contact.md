@@ -12,4 +12,5 @@ nav_order: 7
 We are looking for students eager to unlock *urban secrets* through mobility.
 
 Email: jychoi@dankook.ac.kr
+
 Office: 
