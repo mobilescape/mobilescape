@@ -1,11 +1,11 @@
 ---
 layout: profiles
-permalink: /ko/people/
-title: 구성원
-description: 연구실 구성원
+permalink: /en/people/
+title: people
+description: members of the lab or group
 nav: true
 nav_order: 5
-lang: ko
+lang: en
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

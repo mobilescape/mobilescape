@@ -2,11 +2,11 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% assign current_lang = page.lang | default: 'en' %}
+      {% assign current_lang = page.lang | default: 'ko' %}
       {% assign is_home = false %}
-      {% if page.url == '/' or page.url == '/ko/' %} {% assign is_home = true %} {% endif %}
+      {% if page.url == '/' or page.url == '/en/' %} {% assign is_home = true %} {% endif %}
       {% if is_home == false %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{% if current_lang == 'ko' %}ko/{% endif %}">
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{% if current_lang == 'en' %}en/{% endif %}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -46,14 +46,14 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% assign about_title = '' %}
-          {% assign ko_about_title = '' %}
+          {% assign en_about_title = '' %}
           {% for p in site.pages %}
             {% if p.permalink == '/' %} {% assign about_title = p.title %} {% endif %}
-            {% if p.permalink == '/ko/' %} {% assign ko_about_title = p.title %} {% endif %}
+            {% if p.permalink == '/en/' %} {% assign en_about_title = p.title %} {% endif %}
           {% endfor %}
-          {% if current_lang == 'ko' %}
-            {% assign home_title = ko_about_title %}
-            {% assign home_url = '/ko/' %}
+          {% if current_lang == 'en' %}
+            {% assign home_title = en_about_title %}
+            {% assign home_url = '/en/' %}
           {% else %}
             {% assign home_title = about_title %}
             {% assign home_url = '/' %}
@@ -73,7 +73,7 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% assign p_lang = p.lang | default: 'en' %}
+            {% assign p_lang = p.lang | default: 'ko' %}
             {% if p.nav and p.autogen == null and p_lang == current_lang %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
@@ -142,23 +142,23 @@
           {% endif %}
           <!-- Language toggle -->
           <li class="nav-item">
-            {% if current_lang == 'ko' %}
-              {% assign switch_url = page.url | remove_first: '/ko' %}
+            {% if current_lang == 'en' %}
+              {% assign switch_url = page.url | remove_first: '/en' %}
               {% if switch_url == '' %}{% assign switch_url = '/' %}{% endif %}
               {% assign target_exists = false %}
               {% for p in site.pages %}
                 {% if p.url == switch_url %}{% assign target_exists = true %}{% endif %}
               {% endfor %}
               {% unless target_exists %}{% assign switch_url = '/' %}{% endunless %}
-              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="Switch to English">EN</a>
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="한국어로 보기">KO</a>
             {% else %}
-              {% assign switch_url = '/ko' | append: page.url %}
+              {% assign switch_url = '/en' | append: page.url %}
               {% assign target_exists = false %}
               {% for p in site.pages %}
                 {% if p.url == switch_url %}{% assign target_exists = true %}{% endif %}
               {% endfor %}
-              {% unless target_exists %}{% assign switch_url = '/ko/' %}{% endunless %}
-              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="한국어로 보기">KO</a>
+              {% unless target_exists %}{% assign switch_url = '/en/' %}{% endunless %}
+              <a class="nav-link lang-toggle" href="{{ switch_url | relative_url }}" title="Switch to English">EN</a>
             {% endif %}
           </li>
           {% if site.enable_darkmode %}

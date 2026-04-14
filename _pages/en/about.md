@@ -1,9 +1,9 @@
 ---
 layout: about
-title: 모빌리스케이프
-permalink: /ko/
-subtitle: 단국대학교 연구그룹
-lang: ko
+title: Mobilescape
+permalink: /en/
+subtitle: Research group at Dankook University
+lang: en
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
