@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 소식
-permalink: /news/
+title: news
+permalink: /en/news/
 nav: true
 nav_order: 6
-lang: ko
+lang: en
 ---
 
 {% include news.liquid %}

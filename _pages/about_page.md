@@ -1,10 +1,12 @@
 ---
 layout: page
-title: about
+title: 소개
 permalink: /about/
 nav: true
 nav_order: 1
+lang: ko
 ---
 
-### Unlocking Urban Secrets through Mobility: Mobilescape
-Founded in 2024 at Dankook University, **Mobilescape** is a pioneering research group dedicated to uncovering the hidden secrets of the city through the lens of mobility. We believe that the way people and goods (or even matter) move shapes the urban space. By leveraging cutting-edge analytical frameworks with mobility data, Mobilescape dives deep into the complexities of urban life to solve real-world challenges and envision the future of urban space.
+### 모빌리티를 통해 도시의 비밀을 밝히다: 모빌리스케이프
+
+2024년 단국대학교에 설립된 **모빌리스케이프**는 모빌리티의 관점에서 도시의 숨겨진 비밀을 밝히는 데 전념하는 선도적인 연구그룹입니다. 우리는 사람과 물자(또는 물질)의 이동 방식이 도시 공간을 형성한다고 믿습니다. 모빌리티 데이터와 최첨단 분석 프레임워크를 활용하여, 모빌리스케이프는 도시 생활의 복잡성을 깊이 탐구함으로써 실제 문제를 해결하고 미래 도시 공간을 구상합니다.
