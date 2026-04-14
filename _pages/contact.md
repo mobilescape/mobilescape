@@ -6,11 +6,12 @@ nav: true
 nav_order: 7
 ---
 
+#### EMAIL
+jychoi@dankook.ac.kr
 
-# Join us
-
-We are looking for students eager to unlock *urban secrets* through mobility.
-
-Email: jychoi@dankook.ac.kr
-
-Office: 
+### ADDRESS
+사회과학관 401
+Dankook University
+152 Jukjeon-ro
+Suij-gu, Yongin-si
+Gyeonngi-do, Korea
