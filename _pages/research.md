@@ -1,8 +1,7 @@
 ---
 layout: page
-title: 연구
+title: research
 permalink: /research/
 nav: true
 nav_order: 4
-lang: ko
 ---
