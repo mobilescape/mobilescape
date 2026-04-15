@@ -10,8 +10,9 @@ nav_order: 5
 jychoi@dankook.ac.kr
 
 #### ADDRESS
-사회과학관 401  
+Room 401  
+Social Science Building  
 Dankook University  
 152 Jukjeon-ro  
 Suij-gu, Yongin-si  
-Gyeonngi-do, Korea  
+Gyeonngi-do, Korea
