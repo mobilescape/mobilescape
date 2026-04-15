@@ -27,6 +27,14 @@ Founded in 2024 at Dankook University, **Mobilescape** is a pioneering research 
 
 We are looking for students eager to unlock *urban secrets* through mobility.
 
+- Urban Mobility
+- Urban Energy
+- Sustainable Cities
+- Smart Cities
+- Urban Big Data & AI
+
+
+
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
