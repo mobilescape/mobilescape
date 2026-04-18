@@ -29,13 +29,13 @@ profiles:
 
 # Director
 
-![](assets/img/1.jpg){: style="float: left"}
+![Director](assets/img/1.jpg){: style="float: left"}
 
 CHOI Junyong
 
 # Members
 
-![image](1.jpg){: style="float: right"}
+![](assets/img/1.jpg){: style="float: right"}
 
 JUNG Yubin
 Some text.
