@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Public Transportation
+title: Runderstanding Urban Space Through Public Transportation
 description: Understanding usage patterns in urban space to improve transit systems
 img: assets/img/3.jpg
 importance: 2
