@@ -34,17 +34,11 @@ nav_order: 3
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p><strong>CHOI Junyong</strong></p><br><br>
+    <p><strong>CHOI Junyong</strong></p><br>
     <p><strong>Assistant Professor</strong><br>
     School of Urban Planning and Real Estate<br>
     College of Social Sciences<br>
-    Dankook University</p>
-
-<dl>
-    <dt>School of Urban Planning and Real Estate</dt>
-    <dt>College of Social Sciences</dt>
-    <dt>Dankook University</dt>
-</dl>    
+    Dankook University</p> 
   </div>
 </div>
 
@@ -57,7 +51,7 @@ nav_order: 3
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p><strong>JUNG Yubin</strong>, M.S. Student</p><br><br>
+    <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
     <p><strong>Research Interests</strong></p>
     <ul>
       <li>항목 1</li>
@@ -72,12 +66,11 @@ nav_order: 3
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="OH Junbum" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
 <div class="col-sm-8 col-md-9">
-    <p><strong>OH Junbum</strong></p>
-    <p><strong>M.S. Student</strong></p><br><br>
+    <p><strong>OH Junbum</strong>, M.S. Student</p><br>
     <p><strong>Research Interests</strong></p>
     <ul>
-      <li>항목 1</li>
-      <li>항목 2</li>
+      <li>DRT</li>
+      <li>Machine Learning</li>
     </ul>
   </div>
 </div>
