@@ -2,13 +2,13 @@
 layout: page
 title: 15-Minute City
 description: Reimagining urban life through proximity, accessibility, and walkability
-img: assets/img/2.jpg
+img: assets/img/15min city.jpg
 importance: 3
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2.jpg" title="15-minute city" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/15min city.jpg" title="15-minute city" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
