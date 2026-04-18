@@ -6,6 +6,11 @@ nav: true
 nav_order: 5
 ---
 
+## Join Us
+We are recurting:
+- Undergraduate Researchers
+- Graduate Program Students
+
 #### EMAIL
 jychoi@dankook.ac.kr
 
