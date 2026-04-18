@@ -2,7 +2,7 @@
 layout: about
 title: Mobilescape
 permalink: /
-subtitle: School of Urban Planning and Real Estate, College of Social Sciences
+subtitle: School of Urban Planning and Real Estate, College of Social Sciences, Dankook University
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
