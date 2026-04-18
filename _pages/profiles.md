@@ -35,7 +35,11 @@ CHOI Junyong
 
 # Members
 
-![](/assets/img/1.jpg){: style="float: right"}
-
-JUNG Yubin
-Some text.
+<div class="row align-items-center mt-3 mb-4">
+  <div class="col-sm-4 col-md-3">
+    <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin">
+  </div>
+  <div class="col-sm-8 col-md-9">
+    <p>JUNG Yubin</p>
+    <p>Some text.</p>
+  </div>
