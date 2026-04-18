@@ -3,7 +3,7 @@ layout: page
 title: Urban Energy Planning
 description: with background image
 img: assets/img/energy planning.png
-importance: 1
+importance: 4
 # category: work
 # related_publications: true
 ---
