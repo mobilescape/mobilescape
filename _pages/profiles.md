@@ -29,7 +29,7 @@ profiles:
 
 # Director
 
-![Director](assets/img/1.jpg){: style="float: left"}
+![Director](/assets/img/1.jpg){: style="float: left"}
 
 CHOI Junyong
 
