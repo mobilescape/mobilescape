@@ -84,8 +84,8 @@ ninja.data = [{
           description: "Reimagining urban life through proximity, accessibility, and walkability",
           section: "Research",handler: () => {
               window.location.href = "/mobilescape/research/15min%20city/";
-            },},{id: "research-public-transportation",
-          title: 'Public Transportation',
+            },},{id: "research-runderstanding-urban-space-through-public-transportation",
+          title: 'Runderstanding Urban Space Through Public Transportation',
           description: "Understanding usage patterns in urban space to improve transit systems",
           section: "Research",handler: () => {
               window.location.href = "/mobilescape/research/public%20transportation/";
