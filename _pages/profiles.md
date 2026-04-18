@@ -45,14 +45,13 @@ nav_order: 3
 
 ## Members
 
-
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
-    <h1>Research Interests</h1>
+    <h4>Research Interests</h4>
     <ul>
         <li>무료로 확인하는 내 눈치 레벨!</li>
         <li>아름다운 '금수강산', 옛말이 된 이유</li>
