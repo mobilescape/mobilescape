@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publication
-description: publications of Mobilescape
+# description: publications of Mobilescape
 nav: true
 nav_order: 1
 ---
