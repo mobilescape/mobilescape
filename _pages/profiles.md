@@ -35,10 +35,10 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>CHOI Junyong</strong></p><br><br>
-    <p><strong>Assistant Professor</strong></p>
-    <p>School of Urban Planning and Real Estate</p>
-    <p>College of Social Sciences</p>
-    <p>Dankook University</p>
+    <p><strong>Assistant Professor</strong><br>
+    School of Urban Planning and Real Estate<br>
+    College of Social Sciences<br>
+    Dankook University</p>
   </div>
 </div>
 
