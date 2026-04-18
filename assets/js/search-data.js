@@ -79,6 +79,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2025-12-31_new_paper/";
+            },},{id: "research-urban-energy-planning",
+          title: 'Urban Energy Planning',
+          description: "with background image",
+          section: "Research",handler: () => {
+              window.location.href = "/mobilescape/research/urban%20energy%20planning/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
