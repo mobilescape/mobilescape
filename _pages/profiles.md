@@ -51,10 +51,10 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
-    <h4>Research Interests</h4>
+    <h5>Research Interests</h5>
     <ul>
-        <li>무료로 확인하는 내 눈치 레벨!</li>
-        <li>아름다운 '금수강산', 옛말이 된 이유</li>
+        <li>Megacity Mobility</li>
+        <li>Public Bike</li>
     </ul>
   </div>
 </div>
@@ -66,11 +66,11 @@ nav_order: 3
   </div>
 <div class="col-sm-8 col-md-9">
     <p><strong>OH Junbum</strong>, M.S. Student</p><br>
-    <p><strong>Research Interests</strong></p>
+    <p><strong>Research Interests</strong><br>
     <ul>
       <li>DRT</li>
       <li>Machine Learning</li>
-    </ul>
+    </ul></p>
   </div>
 </div>
 
