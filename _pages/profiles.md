@@ -52,11 +52,11 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
-    <p><strong>Research Interests</strong></p>
+    <p><strong>Research Interests</strong>
     <ul>
       <li>항목 1</li>
       <li>항목 2</li>
-    </ul>
+    </ul></p>
   </div>
 </div>
 
