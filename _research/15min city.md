@@ -12,7 +12,7 @@ importance: 3
     </div>
 </div>
 
-The 15-minute city concept envisions an urban model in which residents can meet all of their daily needs — work, shopping, education, healthcare, leisure, and green space — within a 15-minute walk or bicycle ride from their home. First popularized by urbanist Carlos Moreno and adopted as policy in cities like Paris, this framework challenges the car-centric planning paradigms that have dominated the twentieth century and offers a compelling vision for more sustainable, livable, and equitable cities.
+The 15-minute city concept envisions an urban model in which residents can meet all of their daily needs — work, shopping, education, healthcare, leisure, and green space — within a 15-minute walk or bicycle ride from their home. This framework challenges the car-centric planning paradigms that have dominated the twentieth century and offers a compelling vision for more sustainable, livable, and equitable cities.
 
 Our research investigates how the 15-minute city can be operationalized, measured, and implemented across diverse urban contexts. We develop spatial analytics tools and accessibility metrics that quantify the proximity of essential services for different neighborhoods, revealing where the 15-minute ideal is already a reality and where significant gaps remain. We also examine the relationship between walkable urban form and outcomes such as carbon emissions, physical health, and social cohesion.
 
