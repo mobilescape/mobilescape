@@ -2,13 +2,13 @@
 layout: page
 title: Runderstanding Urban Space Through Public Transportation
 description: Understanding usage patterns in urban space to improve transit systems
-img: assets/img/3.jpg
+img: assets/img/public transport.png
 importance: 2
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="public transportation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/public transport.png" title="public transportation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
