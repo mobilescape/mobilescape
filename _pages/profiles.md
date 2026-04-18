@@ -51,7 +51,7 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
-    <h5>Research Interests</h5>
+    <h6>Research Interests</h6>
     <ul>
         <li>Megacity Mobility</li>
         <li>Public Bike</li>
@@ -66,15 +66,15 @@ nav_order: 3
   </div>
 <div class="col-sm-8 col-md-9">
     <p><strong>OH Junbum</strong>, M.S. Student</p><br>
-    <p><strong>Research Interests</strong><br>
+    <h6>Research Interests</h6>
     <ul>
-      <li>DRT</li>
-      <li>Machine Learning</li>
-    </ul></p>
+        <li>DRT</li>
+        <li>AI</li>
+    </ul>
   </div>
 </div>
 
-## Undergraduate Researchers
+### Undergraduate Researchers
 
 - AN Jungwoo
 - SONG Jinseo
