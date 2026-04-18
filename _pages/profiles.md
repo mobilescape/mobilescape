@@ -39,6 +39,12 @@ nav_order: 3
     School of Urban Planning and Real Estate<br>
     College of Social Sciences<br>
     Dankook University</p>
+
+<dl>
+    <dt>School of Urban Planning and Real Estate</dt>
+    <dt>College of Social Sciences</dt>
+    <dt>Dankook University</dt>
+</dl>    
   </div>
 </div>
 
@@ -51,8 +57,7 @@ nav_order: 3
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p><strong>JUNG Yubin</strong></p>
-    <p><strong>M.S. Student</strong></p><br><br>
+    <p><strong>JUNG Yubin</strong>, M.S. Student</p><br><br>
     <p><strong>Research Interests</strong></p>
     <ul>
       <li>항목 1</li>
