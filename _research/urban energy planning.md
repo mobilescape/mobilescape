@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Urban Energy Planning
-description: with background image
+description: Tackling climate change by urban energy planning
 img: assets/img/energy planning.png
 importance: 4
 # category: work
