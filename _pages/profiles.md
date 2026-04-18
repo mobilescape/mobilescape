@@ -26,3 +26,16 @@ profiles:
   #    <p>123 your address street</p>
   #    <p>Your City, State 12345</p>
 ---
+
+# Director
+
+![](assets/img/1.jpg){: style="float: left"}
+
+CHOI Junyong
+
+# Members
+
+![image](1.jpg){: style="float: right"}
+
+JUNG Yubin
+Some text.
