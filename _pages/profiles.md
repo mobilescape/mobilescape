@@ -52,11 +52,11 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>JUNG Yubin</strong>, M.S. Student</p><br>
-    <p><strong>Research Interests</strong>
+    <h1>Research Interests</h1>
     <ul>
-      <li>항목 1</li>
-      <li>항목 2</li>
-    </ul></p>
+        <li>무료로 확인하는 내 눈치 레벨!</li>
+        <li>아름다운 '금수강산', 옛말이 된 이유</li>
+    </ul>
   </div>
 </div>
 
