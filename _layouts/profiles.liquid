@@ -3,6 +3,8 @@ layout: page
 ---
 <div class="post">
   <article>
+    <div class="clearfix">{{ content }}</div>
+
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
@@ -26,8 +28,6 @@ layout: page
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
           {% endif %}
         </div>
       {% endfor %}

@@ -27,15 +27,25 @@ profiles:
   #    <p>Your City, State 12345</p>
 ---
 
-# Director
+## Director
 
-![Director](/assets/img/1.jpg){: style="float: left"}
+<div class="row align-items-center mt-3 mb-4">
+  <div class="col-sm-4 col-md-3">
+    <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="img-fluid rounded" alt="CHOI Junyong">
+  </div>
+  <div class="col-sm-8 col-md-9">
+    <p>CHOI Junyong</p>
+  </div>
+</div>
 
-CHOI Junyong
+## Members
 
-# Members
-
-![](/assets/img/1.jpg){: style="float: right"}
-
-JUNG Yubin
-Some text.
+<div class="row align-items-center mt-3 mb-4">
+  <div class="col-sm-4 col-md-3">
+    <img src="{{ '/assets/img/1.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin">
+  </div>
+  <div class="col-sm-8 col-md-9">
+    <p>JUNG Yubin</p>
+    <p>Some text.</p>
+  </div>
+</div>
