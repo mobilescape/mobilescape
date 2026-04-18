@@ -2,7 +2,7 @@
 layout: about
 title: Mobilescape
 permalink: /
-subtitle: Research group at Dankook University
+subtitle: School of Urban Planning and Real Estate, College of Social Sciences
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
