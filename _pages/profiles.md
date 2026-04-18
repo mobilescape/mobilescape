@@ -64,3 +64,10 @@ nav_order: 3
   </div>
 </div>
 
+## Undergraduate Researchers
+
+- AN Jungwoo
+- SONG Jinseo
+- KIM Geunseon
+- YOUN Rangkeun
+
