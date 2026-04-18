@@ -31,7 +31,7 @@ nav_order: 3
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
+    <img src="{{ '/assets/img/director.jpeg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>CHOI Junyong</strong></p><br>
