@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publication",
           title: "publication",
-          description: "publications of Mobilescape",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mobilescape/publications/";
