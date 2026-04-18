@@ -96,7 +96,7 @@ ninja.data = [{
               window.location.href = "/mobilescape/research/understanding%20megacity%20mobility/";
             },},{id: "research-urban-energy-planning",
           title: 'Urban Energy Planning',
-          description: "with background image",
+          description: "Tackling climate change by urban energy planning",
           section: "Research",handler: () => {
               window.location.href = "/mobilescape/research/urban%20energy%20planning/";
             },},{
