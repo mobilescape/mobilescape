@@ -79,6 +79,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2025-12-31_new_paper/";
+            },},{id: "research-15-minute-city",
+          title: '15-Minute City',
+          description: "Reimagining urban life through proximity, accessibility, and walkability",
+          section: "Research",handler: () => {
+              window.location.href = "/mobilescape/research/15min%20city/";
+            },},{id: "research-public-transportation",
+          title: 'Public Transportation',
+          description: "Understanding usage patterns in urban space to improve transit systems",
+          section: "Research",handler: () => {
+              window.location.href = "/mobilescape/research/public%20transportation/";
+            },},{id: "research-understanding-megacity-mobility",
+          title: 'Understanding Megacity Mobility',
+          description: "Exploring movement patterns and transportation dynamics in megacities",
+          section: "Research",handler: () => {
+              window.location.href = "/mobilescape/research/understanding%20megacity%20mobility/";
             },},{id: "research-urban-energy-planning",
           title: 'Urban Energy Planning',
           description: "with background image",
