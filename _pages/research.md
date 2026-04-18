@@ -31,11 +31,3 @@ nav_order: 2
         {% endif %}
 </div>
 
-
-# Megacity mobility
-
-# 15min city
-
-# Energy justice
-
-# Public transportation
