@@ -28,8 +28,6 @@ nav_order: 2
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
-{% endif %}
 </div>
 
 
