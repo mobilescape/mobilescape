@@ -31,11 +31,14 @@ nav_order: 3
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="Director">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p>CHOI Junyong</p>
-    <p>Some text.</p>
+    <p><strong>CHOI Junyong</strong></p>
+    <p><strong>Assistant Professor</strong></p>
+    <p>School of Urban Planning and Real Estate</p>
+    <p>College of Social Sciences</p>
+    <p>Dankook University</p>
   </div>
 </div>
 
@@ -45,22 +48,30 @@ nav_order: 3
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="JUNG Yubin" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
     <p>JUNG Yubin</p>
-    <p>Some text.</p>
+    <p><strong>Research Interests</strong></p>
+    <ul>
+      <li>항목 1</li>
+      <li>항목 2</li>
+    </ul>
   </div>
 </div>
 
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="OH Junbum">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded" alt="OH Junbum" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
     <p>OH Junbum</p>
-    <p>Some text.</p>
+    <p><strong>Research Interests</strong></p>
+    <ul>
+      <li>항목 1</li>
+      <li>항목 2</li>
+    </ul>
   </div>
 </div>
 
