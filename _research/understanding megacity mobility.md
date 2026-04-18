@@ -3,7 +3,7 @@ layout: page
 title: Understanding Megacity Mobility
 description: Exploring movement patterns and transportation dynamics in megacities
 img: assets/img/1.jpg
-importance: 2
+importance: 1
 ---
 
 <div class="row">

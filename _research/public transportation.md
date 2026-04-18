@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Public Transportation
-description: Advancing sustainable and equitable urban transit systems
+description: Understanding usage patterns in urban space to improve transit systems
 img: assets/img/3.jpg
-importance: 4
+importance: 2
 ---
 
 <div class="row">
@@ -12,8 +12,9 @@ importance: 4
     </div>
 </div>
 
-Public transportation is the backbone of sustainable urban mobility. Buses, trains, trams, and metros move millions of people every day while consuming a fraction of the energy and space required by private vehicles. Yet public transit systems worldwide face mounting pressures: aging infrastructure, funding constraints, declining ridership in some regions, and the challenge of serving increasingly dispersed urban populations while maintaining frequency and reliability.
+How people actually use public transportation in urban space reveals far more than simple ridership counts. Every boarding, alighting, and transfer encodes a story about where residents live and work, which neighborhoods are well-connected and which are isolated, and how transit demand fluctuates across the hours and seasons of urban life. By mining large-scale smartcard records, GPS traces, and sensor data from buses, trains, and trams, our research reconstructs the spatial and temporal structure of transit usage at the city scale.
 
-Our research focuses on leveraging data science and AI to improve the planning, operation, and equity of public transportation systems. We analyze ridership patterns, travel demand, and service performance to identify opportunities for network optimization — ensuring that transit routes and schedules are responsive to how people actually live and move. We also study the determinants of transit use, exploring how service quality, fare affordability, safety, and land use shape who rides and how often.
+Our work develops methods to identify dominant travel corridors, characterize the diversity of trip purposes embedded in transit flows, and detect how external events — from extreme weather to major city developments — reshape usage patterns across the network. These insights allow us to move beyond static origin–destination matrices toward dynamic, context-aware models of urban transit demand that capture how the city breathes and changes over time.
 
-A central theme of our work is transit equity: understanding and addressing the disparities in public transportation access that affect low-income communities, elderly and disabled riders, and populations in peripheral urban areas. By combining quantitative spatial analysis with qualitative community engagement methods, we aim to provide transit agencies and city governments with actionable insights for building public transportation systems that are not only efficient and sustainable, but genuinely accessible to all.
+Understanding usage patterns is ultimately a foundation for better decision-making. We translate spatial usage analytics into actionable guidance for transit agencies: optimizing route design and service frequency in response to real demand, revealing underserved communities whose travel needs are not met by existing networks, and anticipating how urban growth and land-use changes will shift future ridership. The goal is a public transportation system that is deeply legible to the city it serves — responsive, equitable, and built around how people truly move.
+
