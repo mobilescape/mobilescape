@@ -79,7 +79,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2025-12-31_new_paper/";
-            },},{id: "research-15-minute-city",
+            },},{id: "news-oh-junbeom-has-joined-mobilescape-as-a-masters-student-welcome-aboard",
+          title: 'OH Junbeom has joined Mobilescape as a masters’ student. Welcome aboard.',
+          description: "",
+          section: "News",},{id: "research-15-minute-city",
           title: '15-Minute City',
           description: "Reimagining urban life through proximity, accessibility, and walkability",
           section: "Research",handler: () => {
