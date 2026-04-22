@@ -82,7 +82,12 @@ ninja.data = [{
             },},{id: "news-oh-junbeom-has-joined-mobilescape-as-a-masters-student-welcome-aboard",
           title: 'OH Junbeom has joined Mobilescape as a masters’ student. Welcome aboard.',
           description: "",
-          section: "News",},{id: "research-15-minute-city",
+          section: "News",},{id: "news-yubin-wins-research-grant-for-early-career-researcher",
+          title: 'Yubin wins Research Grant for Early Career Researcher!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/2026-04-13_wins_research_grant/";
+            },},{id: "research-15-minute-city",
           title: '15-Minute City',
           description: "Reimagining urban life through proximity, accessibility, and walkability",
           section: "Research",handler: () => {
