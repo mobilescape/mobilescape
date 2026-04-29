@@ -87,6 +87,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2026-04-13_wins_research_grant/";
+            },},{id: "news-yubin-and-jungwoo-presented-at-the-korea-planning-association",
+          title: 'Yubin and Jungwoo presented at the Korea Planning Association',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/2026-04-24_conference_presentation/";
             },},{id: "research-15-minute-city",
           title: '15-Minute City',
           description: "Reimagining urban life through proximity, accessibility, and walkability",
