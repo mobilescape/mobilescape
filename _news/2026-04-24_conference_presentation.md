@@ -16,4 +16,4 @@ related_posts: false
 
   지선 교통수단 간 미시적 경쟁패턴 분화 연구
 
-  Spatiotemporal Differentiation of Micro-Competitive Patterns between Feeder Transit Modes: An Analysis of O-D Trajectories of Maeul-Buses and Public Bicycles in Gangseo-gu, Seoul 
+  Spatiotemporal Differentiation of Micro-Competitive Patterns between Feeder Transit Modes: An Analysis of O-D Trajectories of Maeul-Buses and Public Bicycles in Gangseo-gu, Seoul
