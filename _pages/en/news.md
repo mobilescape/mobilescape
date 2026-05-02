@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 소식
-permalink: /news/
-lang: ko
-lang_alt_url: /en/news/
+title: News
+permalink: /en/news/
+lang: en
+lang_alt_url: /news/
 nav: true
 nav_order: 4
 ---

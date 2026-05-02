@@ -1,19 +1,16 @@
 ---
 layout: page
-title: 연구
-permalink: /research/
-lang: ko
-lang_alt_url: /en/research/
+title: Research
+permalink: /en/research/
+lang: en
+lang_alt_url: /research/
 nav: true
 nav_order: 2
 ---
 
 <div class="project">
-<!-- Display projects without categories -->
 
 {% assign sorted_projects = site.research | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
 
@@ -32,4 +29,3 @@ nav_order: 2
   </div>
         {% endif %}
 </div>
-
