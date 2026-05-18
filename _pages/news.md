@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 소식
+title: 뉴스
 permalink: /news/
 lang: ko
 lang_alt_url: /en/news/
