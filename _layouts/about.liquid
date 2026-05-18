@@ -42,8 +42,14 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      {% assign page_lang = page.lang | default: 'ko' %}
+      {% if page_lang == 'en' %}
+        {% assign news_url = '/en/news/' %}
+      {% else %}
+        {% assign news_url = '/news/' %}
+      {% endif %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ news_url | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -58,8 +64,16 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      {% assign page_lang = page.lang | default: 'ko' %}
+      {% if page_lang == 'en' %}
+        {% assign pubs_url = '/en/publications/' %}
+        {% assign pubs_label = 'selected publications' %}
+      {% else %}
+        {% assign pubs_url = '/publications/' %}
+        {% assign pubs_label = '주요 논문' %}
+      {% endif %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ pubs_url | relative_url }}" style="color: inherit">{{ pubs_label }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

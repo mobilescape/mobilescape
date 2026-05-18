@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: publication
-# description: publications of Mobilescape
+title: 논문
+lang: ko
+lang_alt_url: /en/publications/
 nav: true
 nav_order: 1
 ---

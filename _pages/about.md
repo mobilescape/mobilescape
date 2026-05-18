@@ -2,7 +2,9 @@
 layout: about
 title: Mobilescape
 permalink: /
-subtitle: School of Urban Planning and Real Estate, College of Social Sciences, Dankook University
+subtitle: 단국대학교 사회과학대학 도시계획부동산학부
+lang: ko
+lang_alt_url: /en/
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -19,19 +21,19 @@ latest_posts:
 ---
 
 
-### Unlocking Urban Secrets through Mobility
+### 이동을 통해 도시를 바라보기
 
-Founded in 2024 at Dankook University, **Mobilescape** is a pioneering research group dedicated to uncovering the hidden secrets of the city through the lens of mobility. We believe that the way people and goods (or even energy) move shapes the urban space. By leveraging cutting-edge analytical frameworks with mobility data, Mobilescape dives deep into the complexities of urban life to solve real-world challenges and envision the future of urban space.
+2024년 단국대학교에서 설립된 **Mobilescape**는 이동(모빌리티)으로 도시의 숨겨진 비밀을 밝히는 연구실입니다. 우리는 사람과 물자(또는 에너지)의 이동이 형성하는 도시 공간을 파헤칩니다. 이동 데이터와 인공지능과 머신러닝을 활용한 최첨단 분석 방법을 활용하여 **Mobilescape**는 복잡한 도시 공간을 탐구하고, 도시 문제를 해결책을 제시하며 미래 도시 공간을 구상합니다.
 
-### Join us
+### 연구 참여
 
-We are looking for students eager to unlock *urban secrets* through mobility.
+도시 이동을 통해 *도시의 비밀*을 밝히고자 하는 학생 또는 연구원은 모두 환영합니다.
 
-- Urban Mobility
-- Urban Energy
-- Sustainable Cities
-- Smart Cities
-- Urban Big Data & AI
+- 도시 모빌리티
+- 도시 에너지
+- 지속 가능한 도시
+- 스마트 시티
+- 도시 빅데이터 & AI
 
 
 
