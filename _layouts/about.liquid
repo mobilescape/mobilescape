@@ -49,7 +49,7 @@ layout: default
         {% assign news_url = '/news/' %}
       {% endif %}
       <h2>
-        <a href="{{ news_url | relative_url }}" style="color: inherit">{% if page_lang == 'en' %}news{% else %}소식{% endif %}</a>
+        <a href="{{ news_url | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
