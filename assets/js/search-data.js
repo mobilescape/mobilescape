@@ -9,36 +9,71 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/mobilescape/";
     },
-  },{id: "nav-publication",
-          title: "publication",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mobilescape/en/publications/";
+          },
+        },{id: "nav-논문",
+          title: "논문",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mobilescape/publications/";
           },
         },{id: "nav-research",
-          title: "research",
+          title: "Research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mobilescape/en/research/";
+          },
+        },{id: "nav-연구",
+          title: "연구",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mobilescape/research/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mobilescape/en/people/";
+          },
+        },{id: "nav-구성원",
+          title: "구성원",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mobilescape/people/";
           },
         },{id: "nav-news",
-          title: "news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mobilescape/en/news/";
+          },
+        },{id: "nav-뉴스",
+          title: "뉴스",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mobilescape/news/";
           },
         },{id: "nav-contact",
-          title: "contact",
+          title: "Contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mobilescape/en/contact/";
+          },
+        },{id: "nav-연락처",
+          title: "연락처",
           description: "",
           section: "Navigation",
           handler: () => {
