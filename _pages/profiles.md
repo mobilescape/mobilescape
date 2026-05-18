@@ -31,7 +31,7 @@ nav_order: 3
   </div>
   <div class="col-sm-8 col-md-9">
     <p><strong>정유빈 (JUNG Yubin)</strong>, 석사과정</p><br><br>
-    <h6>연구 관심사</h6>
+    <h6>관심 분야</h6>
     <ul>
         <li>대도시 모빌리티</li>
         <li>공공자전거</li>
