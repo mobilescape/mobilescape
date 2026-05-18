@@ -33,7 +33,7 @@ nav_order: 3
     <p><strong>정유빈 (JUNG Yubin)</strong>, 석사과정</p><br><br>
     <h6>관심 분야</h6>
     <ul>
-        <li>대도시 모빌리티</li>
+        <li>광역 이동</li>
         <li>공공자전거</li>
     </ul>
   </div>
