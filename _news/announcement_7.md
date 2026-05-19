@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Yubin presented at the Korea Planning Association
+title_ko: 정유빈, 대한국토·도시계획학회 발표
+title_en: Yubin presented at the Korea Planning Association
 date: 2025-10-31
 inline: false
 related_posts: false

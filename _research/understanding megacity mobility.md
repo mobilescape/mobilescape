@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Understanding Megacity Mobility
+title_ko: 메가시티 이동성 이해
+title_en: Understanding Megacity Mobility
 description: Exploring movement patterns and transportation dynamics in megacities
+description_ko: 메가시티의 이동 패턴과 교통 역학 탐구
+description_en: Exploring movement patterns and transportation dynamics in megacities
 img: assets/img/megacity mobility.png
 importance: 1
 ---
