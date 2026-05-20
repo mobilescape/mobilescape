@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Urban Space Through Public Transportation
+title_ko: 대중교통을 통한 도시 공간 분석
+title_en: Urban Space Through Public Transportation
 description: Understanding urban space throug public transportation usage patterns
+description_ko: 대중교통 이용 패턴을 통해 도시 공간 이해
+description_en: Understanding urban space through public transportation usage patterns
 img: assets/img/public transport.png
 importance: 2
 ---

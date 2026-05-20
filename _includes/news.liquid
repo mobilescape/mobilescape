@@ -1,6 +1,7 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
+    {% assign current_lang = page.lang | default: 'ko' %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -19,9 +20,19 @@
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% if current_lang == 'en' %}
+                  {% assign display_content = item.content_en | default: item.content %}
+                {% else %}
+                  {% assign display_content = item.content_ko | default: item.content %}
+                {% endif %}
+                {{ display_content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% if current_lang == 'en' %}
+                  {% assign display_title = item.title_en | default: item.title %}
+                {% else %}
+                  {% assign display_title = item.title_ko | default: item.title %}
+                {% endif %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ display_title }}</a>
               {% endif %}
             </td>
           </tr>

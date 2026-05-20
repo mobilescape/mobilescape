@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Urban Energy Planning
+title_ko: 도시 에너지 계획
+title_en: Urban Energy Planning
 description: Tackling climate change by urban energy planning
+description_ko: 도시 에너지 계획을 통한 기후변화 대응
+description_en: Tackling climate change by urban energy planning
 img: assets/img/energy planning.png
 importance: 4
 # category: work

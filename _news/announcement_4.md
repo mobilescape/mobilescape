@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Yubin, Geunson and Rangkeun presented at the Korea Planning Association
+title_ko: 정유빈, 김근선, 윤량근, 대한국토·도시계획학회 발표
+title_en: Yubin, Geunson and Rangkeun presented at the Korea Planning Association
 date: 2025-04-26
 inline: false
 related_posts: false

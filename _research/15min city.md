@@ -1,7 +1,11 @@
 ---
 layout: page
 title: 15-Minute City
+title_ko: 15분 도시
+title_en: 15-Minute City
 description: Reimagining urban life through proximity, accessibility, and walkability
+description_ko: 근접성, 접근성, 보행 가능성을 통한 도시생활 재구상
+description_en: Reimagining urban life through proximity, accessibility, and walkability
 img: assets/img/15min city.png
 importance: 3
 ---

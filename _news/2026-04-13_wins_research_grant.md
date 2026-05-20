@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Yubin wins Research Grant for Early Career Researcher!
+title_ko: 정유빈, 신진연구자 연구비 수주!
+title_en: Yubin wins Research Grant for Early Career Researcher!
 date: 2026-04-13
 inline: false
 related_posts: false
