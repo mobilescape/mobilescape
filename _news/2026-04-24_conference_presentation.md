@@ -6,6 +6,8 @@ title_en: Yubin and Jungwoo presented at the Korea Planning Association
 date: 2026-04-24
 inline: false
 related_posts: false
+images:
+  slider: true
 ---
 
 - Yubin
@@ -19,3 +21,9 @@ related_posts: false
   지선 교통수단 간 미시적 경쟁패턴 분화 연구
 
   Spatiotemporal Differentiation of Micro-Competitive Patterns between Feeder Transit Modes: An Analysis of O-D Trajectories of Maeul-Buses and Public Bicycles in Gangseo-gu, Seoul
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin presentation.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/jungwoo presentation.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin and jungwoo.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  </swiper-container>
