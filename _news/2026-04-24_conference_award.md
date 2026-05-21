@@ -14,6 +14,6 @@ Jungwoo won best presentation award at the Korea Planning Association. Well done
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/26_conference/jungwoo award.jpg" width="50%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/26_conference/jungwoo award.png" width="50%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
