@@ -23,7 +23,7 @@ images:
   Spatiotemporal Differentiation of Micro-Competitive Patterns between Feeder Transit Modes: An Analysis of O-D Trajectories of Maeul-Buses and Public Bicycles in Gangseo-gu, Seoul
 
 <swiper-container autoHeight="true" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin presentation.jpg" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/jungwoo presentation.jpg" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin and jungwoo.jpg" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin presentation.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/jungwoo presentation.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/26_conference/yubin and jungwoo.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   </swiper-container>
