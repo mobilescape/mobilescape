@@ -122,6 +122,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2026-04-13_wins_research_grant/";
+            },},{id: "news-jungwoo-wins-best-presentation-award",
+          title: 'Jungwoo wins best presentation award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/mobilescape/news/2026-04-24_conference_award/";
             },},{id: "news-yubin-and-jungwoo-presented-at-the-korea-planning-association",
           title: 'Yubin and Jungwoo presented at the Korea Planning Association',
           description: "",
