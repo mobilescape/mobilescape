@@ -1158,21 +1158,9 @@ nav[data-toggle="toc"] {
 }
 
 swiper-container {
-  width: 100%;
-  height: auto;
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
-}
-
-swiper-slide {
-  height: auto;
-}
-
-swiper-slide img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .ps-root {
