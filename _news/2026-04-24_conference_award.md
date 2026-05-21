@@ -6,7 +6,6 @@ title_en: Jungwoo wins best presentation award
 date: 2026-04-24
 inline: false
 related_posts: false
-feature_image: assets/img/26_conference/jungwoo award.jpg
 ---
  
 Jungwoo won best presentation award at the Korea Planning Association. Well done Jungwoo!
