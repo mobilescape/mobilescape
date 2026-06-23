@@ -132,7 +132,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2026-04-24_conference_presentation/";
-            },},{id: "research-15-minute-city",
+            },},{id: "news-park-minjin-has-joined-mobilescape-as-an-undergraduate-researcher-welcome-aboard",
+          title: 'PARK Minjin has joined Mobilescape as an undergraduate researcher. Welcome aboard.',
+          description: "",
+          section: "News",},{id: "research-15-minute-city",
           title: '15-Minute City',
           description: "Reimagining urban life through proximity, accessibility, and walkability",
           section: "Research",handler: () => {
