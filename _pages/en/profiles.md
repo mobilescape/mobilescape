@@ -58,6 +58,7 @@ nav_order: 3
 ### Undergraduate Researchers
 
 - AN Jungwoo
+- PARK Minjin
 - SONG Jinseo
 - KIM Geunseon
 - YOUN Rangkeun
