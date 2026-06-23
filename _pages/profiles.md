@@ -57,6 +57,7 @@ nav_order: 3
 ### 학부 연구원
 
 - 안정우 (AN Jungwoo)
+- 박민진 (PARK Minjin)
 - 송진서 (SONG Jinseo)
 - 김근선 (KIM Geunseon)
 - 윤랑근 (YOUN Rangkeun)
