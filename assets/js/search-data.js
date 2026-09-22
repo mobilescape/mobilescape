@@ -114,11 +114,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/mobilescape/news/2025-12-31_new_paper/";
-            },},{id: "news-2026-01-01-new-mobility-data",
-          title: '2026 01 01_new mobility data',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/mobilescape/news/2026-01-01_new%20mobility%20data/";
             },},{id: "news-oh-junbeom-has-joined-mobilescape-as-a-masters-student-welcome-aboard",
           title: 'OH Junbeom has joined Mobilescape as a masters’ student. Welcome aboard.',
           description: "",
