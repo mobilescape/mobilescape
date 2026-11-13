@@ -7,7 +7,7 @@ date: 2026-04-24
 inline: false
 related_posts: false
 ---
- 
+
 Jungwoo won best presentation award at the Korea Planning Association. Well done Jungwoo!
 
 안정우가 대한국토·도시계획학회에서 우수논문상을 수상했습니다. 축하합니다!

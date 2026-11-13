@@ -23,7 +23,6 @@ nav_order: 3
   </div>
 </div>
 
-
 ## Members
 
 <div class="row align-items-center mt-3 mb-4">
@@ -39,7 +38,6 @@ nav_order: 3
     </ul>
   </div>
 </div>
-
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">

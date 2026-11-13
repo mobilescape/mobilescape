@@ -15,7 +15,7 @@ images:
   커뮤니티 탐지를 활용한 수도권 위계 생활권 구조 비교: 대중교통과 차량 통행 네트워크 분석을 중심으로
 
   Identifying Hierarchy of Living Zone Structures in the Seoul Metropolitan Area Using Community Detection: Comparing Public Transit and Car Travel Networks
-  
+
 - Jungwoo
 
   지선 교통수단 간 미시적 경쟁패턴 분화 연구

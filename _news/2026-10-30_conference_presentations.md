@@ -15,7 +15,7 @@ images:
   서울시 통행목적별 이동 네트워크의 공간 결합과 방향적 연결 특성 분석
 
   Spatial Integration and Directional Connectivity of Urban Mobility Networks by Trip Purpose in Seoul
-    
+
 - Minjin
 
   공공자전거 이용자의 경로 선택 다양성 분석 알고리즘 개발: 송파, 강동을 중심으로

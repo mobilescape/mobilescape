@@ -20,14 +20,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 ### Unlocking Urban Secrets through Mobility
 
 Founded in 2024 at Dankook University, **Mobilescape** is a pioneering research group dedicated to uncovering the hidden secrets of the city through the lens of mobility. We believe that the way people and goods (or even energy) move shapes the urban space. By leveraging cutting-edge analytical frameworks with mobility data, Mobilescape dives deep into the complexities of urban life to solve real-world challenges and envision the future of urban space.
 
 ### Join us
 
-We are looking for students eager to unlock *urban secrets* through mobility.
+We are looking for students eager to unlock _urban secrets_ through mobility.
 
 - Urban Mobility
 - Urban Energy
