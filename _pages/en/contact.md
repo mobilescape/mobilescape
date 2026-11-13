@@ -9,14 +9,18 @@ nav_order: 5
 ---
 
 ## Join Us
+
 We are recruiting:
+
 - Undergraduate Researchers
 - Graduate Program Students
 
 #### EMAIL
+
 jychoi@dankook.ac.kr
 
 #### ADDRESS
+
 Room 401  
 Social Science Building  
 Dankook University  

@@ -22,7 +22,6 @@ nav_order: 3
   </div>
 </div>
 
-
 ## 구성원
 
 <div class="row align-items-center mt-3 mb-4">
@@ -38,7 +37,6 @@ nav_order: 3
     </ul>
   </div>
 </div>
-
 
 <div class="row align-items-center mt-3 mb-4">
   <div class="col-sm-4 col-md-3">
@@ -61,4 +59,3 @@ nav_order: 3
 - 송진서 (SONG Jinseo)
 - 김근선 (KIM Geunseon)
 - 윤랑근 (YOUN Rangkeun)
-

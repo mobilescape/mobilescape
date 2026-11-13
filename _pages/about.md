@@ -20,7 +20,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 ### 이동을 통해 도시를 바라보기
 
 2024년 단국대학교에서 설립된 **Mobilescape**는 이동(모빌리티)으로 도시의 숨겨진 비밀을 밝히는 연구실입니다. 우리는 사람과 물자(또는 에너지)의 이동이 형성하는 도시 공간을 파헤칩니다. 이동 데이터와 인공지능과 머신러닝을 활용한 최첨단 분석 방법을 활용하여 **Mobilescape**는 복잡한 도시 공간을 탐구하고, 도시 문제 해결책을 제시하며 미래 도시 공간을 구상합니다.
@@ -34,9 +33,6 @@ latest_posts:
 - 지속 가능한 도시
 - 스마트 시티
 - 도시 빅데이터 & AI
-
-
-
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

@@ -32,4 +32,3 @@ nav_order: 2
   </div>
         {% endif %}
 </div>
-
