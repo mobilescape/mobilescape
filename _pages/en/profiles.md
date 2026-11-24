@@ -15,7 +15,7 @@ nav_order: 3
     <img src="{{ '/assets/img/director.jpeg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p><strong>CHOI Junyong</strong></p><br><br>
+    <p><strong><a href="https://choi-junyong.dankook.ac.kr/en/about/">CHOI Junyong</a></strong></p><br><br>
     <p><strong>Assistant Professor</strong><br>
     School of Urban Planning and Real Estate<br>
     College of Social Sciences<br>
@@ -60,3 +60,5 @@ nav_order: 3
 - SONG Jinseo
 - KIM Geunseon
 - YOUN Rangkeun
+- HAM Seungeun
+- SEO Hee

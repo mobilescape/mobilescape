@@ -2,7 +2,7 @@
 layout: post
 title: Yubin and Minjin presented at the Korea Planning Association
 title_ko: 정유빈, 박민진, 대한국토·도시계획학회 발표
-title_en: Yubin and Jungwoo presented at the Korea Planning Association
+title_en: Yubin and Minjin presented at the Korea Planning Association
 date: 2026-10-30
 inline: false
 related_posts: false

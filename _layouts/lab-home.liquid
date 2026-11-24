@@ -1,0 +1,112 @@
+---
+layout: default
+---
+{% assign is_en = false %}
+{% if page.lang == 'en' %}{% assign is_en = true %}{% endif %}
+{% if is_en %}
+  {% assign research_url = '/en/research/' %}
+  {% assign people_url = '/en/people/' %}
+  {% assign news_url = '/en/news/' %}
+  {% assign contact_url = '/en/contact/' %}
+{% else %}
+  {% assign research_url = '/research/' %}
+  {% assign people_url = '/people/' %}
+  {% assign news_url = '/news/' %}
+  {% assign contact_url = '/contact/' %}
+{% endif %}
+<style>
+  .lab-home { color: var(--global-text-color); }
+  .lab-hero { display: grid; grid-template-columns: 1.08fr .92fr; align-items: center; gap: 32px; padding: 45px 0 56px; }
+  .lab-kicker { color: #0045e6; font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+  .lab-hero h1 { margin: 20px 0; font: 400 clamp(38px, 5vw, 58px)/1.15 Georgia, serif; letter-spacing: -.04em; }
+  .lab-hero h1 em { color: #0045e6; }
+  .lab-hero p, .lab-intro { color: var(--global-text-color); line-height: 1.85; }
+  .lab-button { display: inline-block; background: #0045e6; color: white !important; padding: 12px 18px; border-radius: 3px; margin: 16px 16px 0 0; }
+  .lab-visual { position: relative; min-height: 310px; overflow: hidden; background: #e7edff; }
+  .lab-visual::before { content: ""; position: absolute; inset: 0; opacity: .7; background-image: linear-gradient(30deg, transparent 47%, white 48%, white 49%, transparent 50%), linear-gradient(120deg, transparent 46%, white 47%, white 48%, transparent 49%); background-size: 86px 74px, 118px 102px; }
+  .lab-visual svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .lab-visual-label { position: absolute; top: 20px; left: 20px; color: #526b9e; font-size: 10px; letter-spacing: .1em; }
+  .lab-section { padding: 30px 0 55px; border-top: 1px solid #dce3e9; }
+  .lab-section h2 { font: 400 30px Georgia, serif; margin: 10px 0 24px; }
+  .lab-research-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+  .lab-card { display: flex; flex-direction: column; border: 1px solid #dce3e9; background: #fff; color: #122a35 !important; }
+  .lab-card img { width: 100%; aspect-ratio: 1.23; object-fit: contain; }
+  .lab-card-text { padding: 15px; }
+  .lab-card h3 { font: 400 18px/1.3 Georgia, serif; margin: 0 0 8px; }
+  .lab-card p { color: #64757b; font-size: 13px; line-height: 1.6; margin: 0; }
+  .lab-lower { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; }
+  .lab-director { display: flex; gap: 18px; align-items: start; }
+  .lab-director img { width: 85px; height: 100px; object-fit: cover; }
+  html[data-theme="dark"] .lab-kicker, html[data-theme="dark"] .lab-hero h1 em { color: #80a9ff; }
+  @media (max-width: 760px) { .lab-hero, .lab-lower { grid-template-columns: 1fr; } .lab-research-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lab-visual { min-height: 230px; } }
+  @media (max-width: 420px) { .lab-research-grid { grid-template-columns: 1fr; } }
+</style>
+<div class="lab-home">
+  <section class="lab-hero">
+    <div>
+      <div class="lab-kicker">Cities in motion · Dankook University</div>
+      {% if is_en %}
+        <h1>Understanding cities <em>through movement.</em></h1>
+        <p>Mobilescape explores urban space through mobility data, artificial intelligence, and machine learning.</p>
+        <a class="lab-button" href="{{ research_url | relative_url }}">Explore research</a>
+        <a href="{{ people_url | relative_url }}">Meet the lab →</a>
+      {% else %}
+        <h1>도시의 움직임을<br><em>읽고, 이해하다.</em></h1>
+        <p>Mobilescape는 이동 데이터와 인공지능으로 사람과 도시의 움직임을 연구합니다.</p>
+        <a class="lab-button" href="{{ research_url | relative_url }}">연구 살펴보기</a>
+        <a href="{{ people_url | relative_url }}">연구실 구성원 →</a>
+      {% endif %}
+    </div>
+    <div class="lab-visual" role="img" aria-label="{% if is_en %}An abstract map of urban movement{% else %}도시의 이동 경로를 표현한 추상 지도{% endif %}">
+      <span class="lab-visual-label">URBAN MOVEMENT</span>
+      <svg viewBox="0 0 500 360" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M92 264 C145 245 139 190 205 194 S284 143 308 126 S362 119 390 88" fill="none" stroke="white" stroke-width="12"/>
+        <path d="M92 264 C145 245 139 190 205 194 S284 143 308 126 S362 119 390 88" fill="none" stroke="#0045e6" stroke-width="2" stroke-dasharray="4 5"/>
+        <circle cx="92" cy="264" r="6" fill="#e88758"/><circle cx="390" cy="88" r="6" fill="#0045e6"/>
+      </svg>
+    </div>
+  </section>
+  <section class="lab-section">
+    <div class="lab-kicker">What we explore</div>
+    <h2>{% if is_en %}Research{% else %}연구 분야{% endif %}</h2>
+    <div class="lab-research-grid">
+      {% assign research = site.research | sort: 'importance' %}
+      {% for project in research %}
+        {% if is_en %}
+          {% assign title = project.title_en | default: project.title %}
+          {% assign description = project.description_en | default: project.description %}
+        {% else %}
+          {% assign title = project.title_ko | default: project.title %}
+          {% assign description = project.description_ko | default: project.description %}
+        {% endif %}
+        <a class="lab-card" href="{{ project.url | relative_url }}">
+          <img src="{{ project.img | relative_url }}" alt="{{ title | escape }}" loading="lazy">
+          <div class="lab-card-text"><h3>{{ title }}</h3><p>{{ description }}</p></div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  <div class="lab-lower">
+    <section class="lab-section">
+      <div class="lab-kicker">Latest</div>
+      <h2><a href="{{ news_url | relative_url }}">{% if is_en %}News{% else %}연구 소식{% endif %}</a></h2>
+      {% include news.liquid limit=true %}
+    </section>
+    <section class="lab-section">
+      <div class="lab-kicker">People</div>
+      <h2>{% if is_en %}Director{% else %}지도교수{% endif %}</h2>
+      <div class="lab-director">
+        <img src="{{ '/assets/img/director.jpeg' | relative_url }}" alt="{% if is_en %}CHOI Junyong{% else %}최준용{% endif %}" loading="lazy">
+        <div>
+          <strong>{% if is_en %}CHOI Junyong{% else %}최준용 · CHOI Junyong{% endif %}</strong>
+          <p>{% if is_en %}Assistant Professor, Dankook University{% else %}단국대학교 도시계획부동산학부 조교수{% endif %}</p>
+          <a href="{{ people_url | relative_url }}">{% if is_en %}Meet the team{% else %}구성원 보기{% endif %} →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="lab-section lab-intro">
+    {{ content }}
+    <a href="{{ contact_url | relative_url }}">{% if is_en %}Contact us{% else %}연락처{% endif %} →</a>
+  </section>
+</div>

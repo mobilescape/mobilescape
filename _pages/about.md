@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: lab-home
 title: Mobilescape
 permalink: /
 subtitle: 단국대학교 사회과학대학 도시계획부동산학부

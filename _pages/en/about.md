@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: lab-home
 title: Mobilescape
 permalink: /en/
 subtitle: School of Urban Planning and Real Estate, College of Social Sciences, Dankook University

@@ -15,7 +15,7 @@ nav_order: 3
     <img src="{{ '/assets/img/director.jpeg' | relative_url }}" class="img-fluid rounded" alt="Director" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
   <div class="col-sm-8 col-md-9">
-    <p><strong>최준용 (CHOI Junyong)</strong></p><br><br>
+    <p><strong><a href="https://choi-junyong.dankook.ac.kr/about/">최준용 (CHOI Junyong)</a></strong></p><br><br>
     <p><strong>조교수</strong><br>
     단국대학교<br>
     사회과학대학 도시계획부동산학부</p>
@@ -59,3 +59,5 @@ nav_order: 3
 - 송진서 (SONG Jinseo)
 - 김근선 (KIM Geunseon)
 - 윤랑근 (YOUN Rangkeun)
+- 함승은 (HAM Seungeun)
+- 서희 (SEO Hee)

@@ -128,6 +128,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <li class="nav-item">
+            <a class="nav-link" href="https://choi-junyong.dankook.ac.kr/{% if current_lang == 'en' %}en/{% endif %}">
+              {% if current_lang == 'en' %}Professor{% else %}교수 홈페이지{% endif %}
+            </a>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

@@ -1,3 +1,15 @@
+# Mobilescape Laboratory
+
+The lab site is published under `/mobilescape/`. The director's personal site and teaching
+pages are maintained separately in [mobilescape.github.io](https://github.com/mobilescape/mobilescape.github.io).
+Research areas live in `_research`, announcements in `_news`, and the Korean and English
+pages in `_pages` and `_pages/en`. Existing research image filenames must be kept in sync
+with their `img` front matter and figure includes.
+
+The lab source branch differs from the current `main` branch. Do not deploy the starter
+from `main` over the existing `gh-pages` site without first reconciling the two histories.
+Run `bundle install` and `bundle exec jekyll build` to build the lab site.
+
 # al-folio
 
 <div align="center">
