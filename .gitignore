@@ -15,6 +15,9 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+node_modules/
+dist/
+.astro/
 
 # Python bytecode from bin/ helper scripts
 __pycache__/
